@@ -11,9 +11,8 @@ raw aac files. These can't be tagged or played on many players. That's why the s
 
 
 ## dependencies
-
-ffmpeg
-curl
+* ffmpeg
+* curl
 
 
 
