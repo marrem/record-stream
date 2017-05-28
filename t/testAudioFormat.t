@@ -14,16 +14,15 @@ is( $af->getFile, 'blup.mp4', 'getFile');
 
 
 
-# Setting aac file 
+# Setting aac file
 # Does right file type gets reported
 
-$af = Audio::GetFormat->new(file => 'test.mp3');
+$af = Audio::GetFormat->new(file => 't/test.mp3');
 is ($af->getFormat, 'mp3', 'getFormat');
 
 
-$af = Audio::GetFormat->new(file => 'test.aac');
+$af = Audio::GetFormat->new(file => 't/test.aac');
 is ($af->getFormat, 'aac', 'getFormat');
 
 
 done_testing();
-
